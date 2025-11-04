@@ -100,8 +100,8 @@
 
 @font-face {
   font-family: "VIRUST";
-  src: url("../src/font/VIRUST.woff2") format("woff2"),
-    url("../src/font/VIRUST.ttf") format("truetype");
+  src: url("../font/VIRUST.woff2") format("woff2"),
+    url("../font/VIRUST.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
