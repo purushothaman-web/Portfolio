@@ -65,39 +65,6 @@
   --radius: 0.75rem;
 }
 
-.theme-purple {
-  --background: 260 50% 98%;
-  --foreground: 250 25% 27%;
-  --card: 0 0% 100%;
-  --card-foreground: 250 25% 27%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 250 25% 27%;
-  --primary: 265 70% 50%;
-  --primary-foreground: 260 40% 98%;
-  --secondary: 260 40% 96.1%;
-  --secondary-foreground: 265 70% 40%;
-  --muted: 260 40% 96.1%;
-  --muted-foreground: 250 25% 40%;
-  --accent: 265 70% 50%;
-  --accent-foreground: 260 40% 98%;
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 260 40% 98%;
-  --border: 260 31.8% 91.4%;
-  --input: 260 31.8% 91.4%;
-  --ring: 250 25% 27%;
-  --sidebar-background: 260 50% 98%;
-  --sidebar-foreground: 250 25% 40%;
-  --sidebar-primary: 265 70% 50%;
-  --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 260 50% 95%;
-  --sidebar-accent-foreground: 250 25% 27%;
-  --sidebar-border: 260 31.8% 91.4%;
-  --sidebar-ring: 265 70% 50%;
-  --footer-background: hsl(286, 35.1%, 7.3%);
-  --codebg: hsl(0, 0%, 100%);
-  --radius: 0.75rem;
-}
-
 @font-face {
   font-family: "VIRUST";
   src: url("../font/VIRUST.woff2") format("woff2"),
