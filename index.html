@@ -6,20 +6,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Purushothaman" />
-  <meta name="description" content="Purushothaman's portfolio showcasing web development skills. Front end, back end, and full stack projects." />
-  <meta name="keywords" content="web developer, front end developer, back end developer, full stack developer, Purushothaman" />
+  <meta name="description"
+    content="Purushothaman's portfolio showcasing web development skills. Front end, back end, and full stack projects." />
+  <meta name="keywords"
+    content="web developer, front end developer, back end developer, full stack developer, Purushothaman" />
   <title>Purushothaman R | Web Developer</title>
 
   <!-- Social Media Meta Tags -->
   <meta property="og:title" content="Purushothaman R | Web Developer">
-  <meta property="og:description" content="Purushothaman's portfolio showcasing web development skills. Front end, back end, and full stack projects.">
+  <meta property="og:description"
+    content="Purushothaman's portfolio showcasing web development skills. Front end, back end, and full stack projects.">
   <meta property="og:image" content="src/images/user.webp">
   <meta property="og:url" content="https://purushoth.is-a.dev/">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Purushothaman R | Web Developer">
-  <meta name="twitter:description" content="Purushothaman's portfolio showcasing web development skills. Front end, back end, and full stack projects.">
+  <meta name="twitter:description"
+    content="Purushothaman's portfolio showcasing web development skills. Front end, back end, and full stack projects.">
   <meta name="twitter:image" content="src/images/user.webp">
   <meta name="twitter:url" content="https://purushoth.is-a.dev/">
 
@@ -31,6 +35,8 @@
   <link rel="shortcut icon" href="/src/favicon/favicon.ico" type="image/x-icon" />
 
   <!-- Local Styles -->
+  <link rel="stylesheet" href="./src/css/show-more.css" />
+  <link rel="stylesheet" href="./src/css/loading.css" />
   <link rel="stylesheet" href="/src/css/style.css" />
 
   <!-- External Libraries & Frameworks -->
@@ -44,6 +50,18 @@
 </head>
 
 <body>
+
+  <div id="loading-screen" class="loading-screen">
+    <div class="loader-container">
+      <div class="loader-logo">
+        <span class="logo-font">PR.</span>
+      </div>
+      <div class="loader-bar">
+        <div class="loader-progress"></div>
+      </div>
+      <p class="loader-text">Loading Portfolio...</p>
+    </div>
+  </div>
   <div id="toast" class="custom-toast"></div>
 
   <nav class="navbar">
@@ -82,7 +100,8 @@
               </ul>
             </div>
 
-            <a href="/src/resume/Purushothaman_R_Resume.pdf" download="Purushothaman-R.pdf" class="resume-btn">Resume</a>
+            <a href="/src/resume/Purushothaman_R_Resume.pdf" download="Purushothaman-R.pdf"
+              class="resume-btn">Resume</a>
           </div>
         </div>
         <div class="nav-res1">
@@ -319,8 +338,8 @@
         </div>
         <div class="about-side-2" style="opacity: 1">
           <div class="custom-relative">
-            <span class="img-span"><img class="img-user lazyload" alt="Purushothaman R - Web Developer"
-                loading="lazy" src="src/images/user.webp" /></span>
+            <span class="img-span"><img class="img-user lazyload" alt="Purushothaman R - Web Developer" loading="lazy"
+                src="src/images/user.webp" /></span>
             <div class="gpa">70%</div>
           </div>
           <div class="role" style="opacity: 1; transform: none">
@@ -366,8 +385,8 @@
             </div>
             <div class="project-overlay">
               <div class="project-link">
-                <a href="https://github.com/FrontEndExplorer-Temp/spend-log" class="project-link-a"
-                  target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Expense-Tracker">
+                <a href="https://github.com/FrontEndExplorer-Temp/spend-log" class="project-link-a" target="_blank"
+                  rel="noopener noreferrer" aria-label="GitHub repository for Expense-Tracker">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-github">
@@ -383,17 +402,18 @@
           <div class="pj-content">
             <h3 class="project-title">Spend Log</h3>
             <p class="project-description">
-                A full-stack web app for managing daily expenses and income.
-                Includes secure authentication, tracking, budgeting, and interactive charts.
-                Designed with a responsive UI for an efficient, user-friendly experience.
+              A full-stack web app for managing daily expenses and income.
+              Includes secure authentication, tracking, budgeting, and interactive charts.
+              Designed with a responsive UI for an efficient, user-friendly experience.
             </p>
             <div class="skills">
               <span class="project-skill">React JS</span><span class="project-skill">TailwindCSS</span><span
-                class="project-skill">Node.js</span><span class="project-skill">Express.js</span><span class="project-skill">MongoDB</span>
+                class="project-skill">Node.js</span><span class="project-skill">Express.js</span><span
+                class="project-skill">MongoDB</span>
             </div>
             <div class="external-link-div">
-              <a href="https://github.com/FrontEndExplorer-Temp/spend-log" target="_blank"
-                rel="noopener noreferrer" aria-label="View Expense-Tracker" class="external-link">
+              <a href="https://github.com/FrontEndExplorer-Temp/spend-log" target="_blank" rel="noopener noreferrer"
+                aria-label="View Expense-Tracker" class="external-link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                   class="lucide lucide-github">
@@ -403,17 +423,6 @@
                   <path d="M9 18c-4.51 2-5-2-7-2"></path>
                 </svg>
                 <span>GitHub</span>
-              </a>
-              <a href="https://spend-log.netlify.app/" target="_blank" rel="noopener noreferrer"
-                aria-label="View Expense-Tracker" class="external-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-external-link">
-                  <path d="M15 3h6v6"></path>
-                  <path d="M10 14 21 3"></path>
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                </svg>
-                <span>Live Demo</span>
               </a>
             </div>
           </div>
@@ -522,19 +531,18 @@
                 </svg>
                 <span>GitHub</span>
               </a>
-              <a href="https://thiraiview.netlify.app/" target="_blank" rel="noopener noreferrer"
-                aria-label="View Expense-Tracker" class="external-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-external-link">
-                  <path d="M15 3h6v6"></path>
-                  <path d="M10 14 21 3"></path>
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                </svg>
-                <span>Live Demo</span>
-              </a>
             </div>
           </div>
+        </div>
+        <div class="show-more-container" id="showMoreContainer">
+          <button class="show-more-btn" id="showMoreBtn">
+            <span class="show-more-text">Show More Projects</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="chevron-icon">
+              <path d="m6 9 6 6 6-6"></path>
+            </svg>
+          </button>
         </div>
       </div>
     </div>
@@ -720,8 +728,7 @@
             <p class="achievement-desc">
               Completed a comprehensive course on building full-stack applications with Node.js, Express.
             </p>
-            <a
-              href="https://www.udemy.com/certificate/UC-d3be7243-0f59-4de5-853c-8eec9a1d3fa0/">
+            <a href="https://www.udemy.com/certificate/UC-d3be7243-0f59-4de5-853c-8eec9a1d3fa0/">
               <span class="tag-achieve">Certification</span></a>
           </div>
 
@@ -779,7 +786,7 @@
               <span class="tag-achieve">Certification</span></a>
           </div>
 
-                    <div class="swiper-slide achieve-card">
+          <div class="swiper-slide achieve-card">
             <div class="content-achiv">
               <div class="achieve-svg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1009,7 +1016,8 @@
       </div>
     </div>
   </footer>
-
+  <script src="./src/js/show-more.js"></script>
+  <script src="./src/js/loading.js"></script>
   <script src="./src/js/lazysizes.min.js"></script>
   <script src="./src/js/aos.js"></script>
   <script src="./src/js/notyf.min.js"></script>

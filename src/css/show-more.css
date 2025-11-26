@@ -1,0 +1,75 @@
+.show-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-column: 1 / -1; 
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.show-more-btn,
+.show-more-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.65rem 1.05rem;
+    background-color: transparent;
+    color: hsl(var(--foreground));
+    border: 1px solid hsl(var(--border));
+    border-radius: calc(var(--radius) - 2px);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.22s ease;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.show-more-btn:hover,
+.show-more-link:hover {
+    background-color: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
+    border-color: hsl(var(--accent));
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(17, 24, 39, 0.06);
+}
+
+.show-more-btn:active,
+.show-more-link:active {
+    transform: translateY(0);
+}
+
+.chevron-icon {
+    transition: transform 0.28s ease;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+.show-more-btn.expanded .chevron-icon,
+.show-more-link.expanded .chevron-icon {
+    transform: rotate(180deg);
+}
+
+.project-card.hidden-project {
+    display: none;
+}
+
+@keyframes fadeInProject {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project-card.show-project {
+    animation: fadeInProject 0.5s ease forwards;
+}
