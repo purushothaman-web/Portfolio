@@ -93,7 +93,7 @@ Portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/FrontEndExplorer-Temp/Portfolio.git
+   git clone https://github.com/purushothaman-web/Portfolio.git
    ```
 
 2. **Navigate to the project directory**
@@ -182,8 +182,7 @@ You can easily deploy this portfolio to:
 Feel free to reach out for collaborations or opportunities:
 
 - **Email**: rpurushothaman500@gmail.com
-- **LinkedIn**: [Purushothaman R](https://www.linkedin.com/in/purushothaman-r-web-dev/)
-- **GitHub**: [@FrontEndExplorer-Temp](https://github.com/FrontEndExplorer-Temp)
+- **GitHub**: [@purushothaman-web](https://github.com/purushothaman-web)
 
 ---
 

@@ -52,15 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dismissible: true,
   });
 
-  // ====== RESUME DOWNLOAD FEEDBACK ======
-  document.querySelectorAll(".resume-btn, .d-resume").forEach((el) => {
-    el.addEventListener("click", function () {
-      const fileName = this.getAttribute("download") || "Resume";
-      setTimeout(() => {
-        notyf.success(`${fileName} downloaded successfully!`);
-      }, 500);
-    });
-  });
+
 
   // ====== CONTACT FORM HANDLER ======
   const form = document.querySelector(".contact-card");
