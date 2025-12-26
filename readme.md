@@ -2,11 +2,7 @@
 
 <div align="center">
 
-![Portfolio Banner](src/images/Screenshot.png)
-
 **A modern, responsive portfolio showcasing full-stack web development skills**
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2914e524-56c4-4ece-8273-a288d62518ec/deploy-status)](https://app.netlify.com/projects/purushoth-dev/deploys)
 
 [🚀 Live Demo](https://purushoth.is-a.dev/) • [📱 Fallback Site](https://purushoth-dev.netlify.app/)
 
@@ -182,6 +178,7 @@ You can easily deploy this portfolio to:
 Feel free to reach out for collaborations or opportunities:
 
 - **Email**: rpurushothaman500@gmail.com
+
 - **GitHub**: [@purushothaman-web](https://github.com/purushothaman-web)
 
 ---
